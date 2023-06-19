@@ -11,7 +11,7 @@
     <script src="/script.js"></script>
 </head>
 <body>
-    <div id="name-from" class="bg-primary">
+    <div id="name-from" class="bg-primary d-flex align-items-center">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 offset-md-4">
@@ -19,6 +19,29 @@
                         <input type="text" class="form-control" placeholder="Enter your name" id="name-value" autofocus>
                         <div class="input-group-append">
                             <button class="btn btn-dark" id="login">Enter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="chat-room" class="d-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card-body mt-3">
+                        <h2 id="name-title"></h2>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter your message" id="message-value" autofocus>
+                            <div class="input-group-append">
+                                <button class="btn btn-dark" id="send-btn">Send</button>
+                                <button class="btn btn-dark" id="logout">Logout</button>
+                            </div>
+                        </div>
+                        <div class="table-responsive mt-3">
+                            <table id="message-Container-table">
+
+                            </table>
                         </div>
                     </div>
                 </div>
