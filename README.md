@@ -1,2 +1,2 @@
 # ChatRoomApp
-Real-time chap application using WebSocket
+Real-time chat application using WebSocket
